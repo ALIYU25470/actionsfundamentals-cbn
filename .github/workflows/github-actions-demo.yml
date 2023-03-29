@@ -46,6 +46,6 @@ jobs:
 
         run: |
 
-          echo "The repository ${{ github.repository }} contains the following files:"
+          echo "The repository ${{ github.github-actions-demo.yml }} contains the following files:"
 
           tree
